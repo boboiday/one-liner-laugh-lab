@@ -6,7 +6,7 @@
 
 Entry for the make.fun bounty **One-Liner Laugh Lab**: a program that writes one short funny line answering a prompt — the excuse a robot vacuum gives after eating a sock.
 
-> "I thought it was a dust bunny with commitment issues. I stand by my choices."
+> "I did not eat your sock. At 04:12 I logged it as debris, at 04:13 I logged it as lunch, and at 04:14 the status light started blinking: 'one sock short of a pair.'"
 
 ## Run it
 
@@ -16,4 +16,4 @@ node dist/main.js
 cat /output/entry.txt
 ```
 
-Writes the single line (76 characters) to `/output/entry.txt`. Deterministic: fixed text, no randomness, no network.
+Writes the single line (163 characters) to `/output/entry.txt`. Deterministic: fixed text, no randomness, no network.
